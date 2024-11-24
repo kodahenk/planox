@@ -15,7 +15,8 @@ class TaskFactory extends Factory
             'title' => $this->faker->sentence(4),
             'description' => $this->faker->paragraph(),
             'status' => $this->faker->randomElement(['todo', 'in_progress', 'done']),
-            'project_id' => \App\Models\Project::factory(), // Bağlı olduğu proje
+            'project_id' => \App\Models\Project::factory(),
+            'parent_id' => null, // Varsayılan olarak üst görev yok
         ];
     }
 }
