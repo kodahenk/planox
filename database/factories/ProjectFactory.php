@@ -12,7 +12,7 @@ class ProjectFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->sentence(3),
+            'name' => ucwords($this->faker->words(2, true)),
             'description' => $this->faker->paragraph(),
         ];
     }
