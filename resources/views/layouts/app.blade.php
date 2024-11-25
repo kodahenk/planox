@@ -32,8 +32,10 @@
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
     <link rel="shortcut icon" href="{{ asset('assets/media/favicons/favicon.png') }}" />
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/media/favicons/favicon-192x192.png') }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/media/favicons/apple-touch-icon-180x180.png') }}" />
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="{{ asset('assets/media/favicons/favicon-192x192.png') }}" />
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="{{ asset('assets/media/favicons/apple-touch-icon-180x180.png') }}" />
     <!-- END Icons -->
 
     <!-- Stylesheets -->
@@ -276,9 +278,9 @@
                     <!-- Side Navigation -->
                     <div class="content-side content-side-full">
                         <button type="button"
-                            class="btn btn-primary btn-sm w-100 push d-flex align-items-center justify-content-between">
+                            class="btn btn-primary btn-sm w-100 push d-flex align-items-center">
+                            <i class="fa fa-plus opacity-50 ms-1 me-2"></i>
                             <span>Görev Ekle</span>
-                            <i class="fa fa-plus opacity-50 ms-1"></i>
                         </button>
                         <ul class="nav-main">
                             <li class="nav-main-item">
